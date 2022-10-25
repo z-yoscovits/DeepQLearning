@@ -1,0 +1,17 @@
+name: navigation
+channels:
+  - pytorch
+dependencies:
+  - python=3.6
+  - numpy=1.20.1
+  - pandas
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+    - unityagents
+    - mlagents
+    - gym
+    - Pillow
+    - h5py
+    - ipykernel

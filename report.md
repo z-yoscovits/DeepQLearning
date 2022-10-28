@@ -59,3 +59,7 @@ This agent was able to solve the envronment in 335 epsodes with an average score
 Below is a plot of the score for each episode
 
 ![image](results.png)
+
+### Future Work
+There are a couple of ways this project could be extended.  The first is to use a prioritized experience replay buffer, which placed greater priority on experiences that have a greater discrepency with the expected Q value, to ensure that the network trains on the most useful experiences.
+Another possiblility for extending the project is to use a modified version of the environment which presents the state as an image rather than a vector of parameters.  To learn from such an environment a convolutional neural network would be placed above the network for extimating Q values.  The state value and action advantage networks could share the same convolutional network.
